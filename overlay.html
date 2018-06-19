@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript">
+		function update () {
+			var tugs = $.parseJSON($.get("tugs.dat"));
+			var tugsk = Object.keys(tugs);
+			var queue = $.parseJSON($.get("queue.dat"));
+			var queuek = Object.keys(queue);
+			var tugshtml = "<br />";
+			var queuehtml = "";
+			var n = 0, max = 0, p = 0;
+			
+			for(i=0; i < tugsk.length; i++) {
+				n = tugs[i][0];
+				max = tugs[i][1];
+				p = Math.floor(n / max * 100);
+				tugshtml = tugshtml + "<b>" + tugsk[i] + ":</b> " + p.toString() + "<br /";
+			}
+			$("#tugs").html(tugshtml);
+		}
+		update();
+		setInterval(function(){
+			update() // this will run after every 5 seconds
+		}, 1000);
+		</script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="tugs">
+			</div>
+			
+			<div id="queue">
+				test
+			</div>
+		</div>
+	</body>
+</html>

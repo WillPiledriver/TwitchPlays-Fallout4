@@ -1,0 +1,47 @@
+COMMAND LIST
+
+
+##Movement
+>**WASD:**
+>>W, A, S, D  
+>Sprint, jump
+
+
+##Mouse Controls
+>**Turn left/right**
+>>tr45 (Turn Right 45 degrees), tl45, tr90, tr90, 180  
+>**Mouse precise**  
+>>mu (mouse up), md(mouse down), ml, mr  
+>>muf (mouse up fine), mdf, mlf, mrf  
+>Click
+
+##Pipboy  
+>pip, radio, data, inv, map  
+>vats, light, t, 0-9 (Favorite list, speech)
+
+
+##Other Key Presses
+>e, enter, holde, r, holster, sneak  
+>up, down, left, right (arrow keys)  
+>melee, grenade, q, crit, tp (toggles pause for 10 seconds)  
+>qs (quicksave), ql (quickload)
+
+
+
+
+
+
+
+##Iterations
+>**The following commands can be repeated by appending 'x#' to the command where # is any number between 2 and 5. For example: sprintx4**  
+>>W, A, S, D, sprint  
+>>mu, md, mr, ml, muf, mrf, mlf, mdf  
+>>click, e, q, up, down, left, right  
+
+
+##Tug of war commands
+>**By using the following commands, it changes the value of the corresponding action. Once the value passes a certain point, a certain action is done**  
+>>**Order / Chaos:** When chaos is activated, the voting system is disabled, and every command in chat will be executed.  
+>>**Delayup / Delaydn:** using these commands increases or decreases the amount of time you can vote for a single command.  
+>>**Pause / Nopause:** When pause is on, the game pauses between commands.  
+>>**Banpip / unbanpip:** This bans pipboy commands.

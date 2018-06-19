@@ -1,0 +1,28 @@
+html, body {
+	background-color:rgba(255, 255, 255, 0);
+	font-family: Arial, Gadget, sans-serif;
+	color: rgba(0, 204, 0, 1)
+}
+
+#container {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color:rgba(0, 100, 0, .25);
+	margin-right: 25px;
+}
+
+#queue {
+	border-top: 3px solid #73AD21;
+	padding: 10px;
+	height: 200px;
+}
+
+#tugs {
+	padding: 10px;
+}
+
+
